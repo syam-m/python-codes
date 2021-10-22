@@ -7,10 +7,10 @@ def solve(k2, k3, k5, k6):
     if k2 > 0:
         count_32 = min(k2, k3)
 
-    return (count_32 * 32) + (count_256 * 256)
+    return ((count_32 * 32) + (count_256 * 256))
 
 
 if __name__ == "__main__":
 
-    k2, k3, k5, k6 = map(int, raw_input().split(" "))
+    k2, k3, k5, k6 = map(int, input().split(" "))
     print solve(k2, k3, k5, k6 )
