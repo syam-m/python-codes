@@ -31,6 +31,7 @@ class Solution(object):
         # all other cells which are not adjacent
         return used[mid]
 
+    
     def calc_patterns(self, used, last, length):
         if length == 0:
             return 1
