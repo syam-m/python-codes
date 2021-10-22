@@ -9,7 +9,6 @@ def solve(k2, k3, k5, k6):
 
     return ((count_32 * 32) + (count_256 * 256))
 
-
 if __name__ == "__main__":
 
     k2, k3, k5, k6 = map(int, input().split(" "))
